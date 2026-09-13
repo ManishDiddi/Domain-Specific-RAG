@@ -1,0 +1,32 @@
+# Dataset — 21MB, do not commit. Document how to fetch it in the README.
+RAG_BCS_Dataset.csv
+
+# Persisted artifacts — regenerable, and large
+*.npy
+*.pkl
+milvus_demo.db
+*.db
+volumes/
+processed/chunks.jsonl
+processed/qdrant_db/
+processed/vector_db/
+
+# ...but the eval set IS a graded artifact. Keep it tracked.
+!processed/eval/
+!processed/eval/**
+
+# Env & secrets
+.env
+.venv/
+venv/
+
+# Notebook / OS noise
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+*backup*
+*pre*
+# Personal working notes and a stale Colab guide — local only
+CLAUDE.md
+COLAB_SETUP.md
