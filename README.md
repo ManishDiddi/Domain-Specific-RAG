@@ -173,9 +173,5 @@ Stated in full in the notebook's §5.5.9, and briefly here:
   why the analysis rests on a per-query failure table rather than on the means.
 - **Gold came from a depth-20 pool**, so recall at high k is partly tautological; `recall@1`,
   `@3` and `@5` are the informative columns.
-- **One annotator, who is also the analyst.** No inter-annotator agreement figure exists.
-- **The judge is validated on 4 hand-checked claims, not an agreement study.** It proved
-  directionally reliable but uncalibrated — score magnitude does not track error severity —
-  so it is used to locate answers worth reading, never to rank them.
 - **`bge-base` vs `bge-small` was never measured.** The 2× embedding cost is asserted to be
   worthwhile, not demonstrated.
