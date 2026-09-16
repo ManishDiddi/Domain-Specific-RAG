@@ -28,5 +28,4 @@ __pycache__/
 *backup*
 *pre*
 # Personal working notes and a stale Colab guide — local only
-CLAUDE.md
 COLAB_SETUP.md
